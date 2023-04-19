@@ -17,7 +17,7 @@ const App = () => {
       renderChatFeed={chatAppProps => <ChatFeed {...chatAppProps} />}
       onNewMessage={() =>
         new Audio(
-          'https://chat-engine-assets.s3.amazonaws.com/click.mp3'
+          "https://chat-engine-assets.s3.amazonaws.com/click.mp3"
         ).play()
       }
     />
